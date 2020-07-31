@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zhy:okhttputils:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://E:/msi_qlab_hello/caches/transforms-2/files-2.1/f6b860a9ab86f473185264636ab1d53e/jetified-okhttputils-2.0.0/jars/classes.jar!/" />
+      <root url="file://E:/msi_qlab_hello/caches/transforms-2/files-2.1/f6b860a9ab86f473185264636ab1d53e/jetified-okhttputils-2.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/msi_qlab_hello/caches/modules-2/files-2.1/com.zhy/okhttputils/2.0.0/3de11f29266693938622fc83fc785cda19afc57b/okhttputils-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/msi_qlab_hello/caches/modules-2/files-2.1/com.zhy/okhttputils/2.0.0/462e069a2efdb1f4249df3b390b5aa1dd9cf3126/okhttputils-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

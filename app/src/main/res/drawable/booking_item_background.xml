@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--點擊后的item -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#eeaaaa" />
+        </shape>
+    </item>
+    <!--不點擊的item -->
+    <item>
+        <shape>
+            <solid android:color="#eeeeee" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-ui:2.3.0-alpha01@aar">
+    <CLASSES>
+      <root url="jar://E:/msi_qlab_hello/caches/transforms-2/files-2.1/f03b34742f738c92c2868e33bfd93a58/navigation-ui-2.3.0-alpha01/jars/classes.jar!/" />
+      <root url="file://E:/msi_qlab_hello/caches/transforms-2/files-2.1/f03b34742f738c92c2868e33bfd93a58/navigation-ui-2.3.0-alpha01/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/msi_qlab_hello/caches/modules-2/files-2.1/androidx.navigation/navigation-ui/2.3.0-alpha01/d31efd61bc4b52f7b5e9b863c75f9491f57160be/navigation-ui-2.3.0-alpha01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

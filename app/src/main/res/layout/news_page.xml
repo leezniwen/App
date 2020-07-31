@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/news_page_loading_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center">
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:text="載入中..."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressbar"
+            android:id="@+id/textView1"
+            android:textColor="@color/redDark"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/news_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEWS_PAGE"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/news_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="NEWS_time"
+                android:textSize="15dp"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/news_source_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="NEWS_source"
+                android:textSize="15dp"
+                android:paddingLeft="5dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/news_page_img"
+                />
+            <TextView
+                android:id="@+id/news_text_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="沒有新聞"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:lineSpacingExtra="3dp"
+                />
+            <TextView
+                android:id="@+id/news_nomessage_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ash"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                />
+            <com.example.msiqlab.mylistview
+                android:id="@+id/news_board_lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/news_message_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="800"
+        android:orientation="horizontal"
+        android:background="@color/ash">
+
+        <TextView
+            android:id="@+id/news_message_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="XXX"
+            android:textSize="30dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/news_message_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="500"
+            android:background="@color/black"
+            android:text="留言..."
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/ash"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

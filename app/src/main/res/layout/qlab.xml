@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/qlab_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/redDark"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="實驗室中心"
+        android:textSize="50dp"
+        android:gravity="center"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/qlab_tabl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/redDark"
+        app:tabTextAppearance="@style/TablayoutTextSize"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/redDark"
+        />
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/qlab_vp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>
